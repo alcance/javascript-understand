@@ -1,0 +1,97 @@
+IMPORTANT
+
+- Syntax Parser - > Syntax validation. Covert my abstract code in machine code, represented in memory. 
+[ jscode ] -> [syntax parser] -> [computer instructions]
+==============  TRANSLATION ===== DO THINGS 
+
+- Lexical enviroment -> where something sits physically in the code you write. 
+  * Variable sit lexicaly within the function. Where is written? What's sorounds them?
+
+- Execution Context -> Wrapper to manage the running code.
+  Wich is running ? Runs your code. 
+
+NAME/VALUE PAIS AND OBJECTS.
+
+Name/Value Pair: 
+Name wich maps to a unique value, can only have one value in any give context.
+Any particular execuation context (section of code running) name can only have one value.
+That value may be more name/value pairs.
+
+ NAME        VALUE 
+Address = '100 Main St.'
+
+OBJECTS: A collection of name value pairs. (In Javascript)
+
+Address : <-- object
+{
+  Street: 'Main',
+  Number: 100,
+  Apartment: <-- object
+  {
+    Floor: 3,
+    Number: 301
+  }
+}
+
+THE GLOBAL ENVIROMENT AND THE GLOBAL OBJECT
+
+THE EXECUTION CONTEXT: CREATION AND HOISTING @ CREATION PHASE 
+  Setups Memory Space for Variable and Functions.
+  Javavasript already give us memory space in th Execution Context CREATION PHASE
+  
+  
+SINGLE THREADED
+One command executed at a time.
+
+SYNCHRONOUS:
+One at a time. And in order. Line by line.
+
+
+FUNCTION INVOCATION 
+Running a function or calling a function by using parenthesis ()
+
+AND THE EXECUTION STACK
+
+FUNCTION CONTEXT AND 
+
+VARIABLE ENVIROMENTS
+Where the variable lives.
+Every execution context has its own variable env.
+
+
+THE SCOPE CHAIN
+SCOPE: Where a viarlbe is avialable in your code.
+
+ASYNCHRONOUS: More than one at a time.
+
+OPERATOR PRECEDENCE:
+Wich operation function gets called first. 
+HIGHER Precendec wins
+
+OPERATOR ASOCIATIVITY:
+What order operator function get called in; left to right or right to left. 
+When funciton s have th esame precedence
+
+COERCION: Converting a value from one type to another.
+
+EXITENCE AND BOOLEANS
+
+NAMESPACE: A container for vairables and functions. 
+Keep variables adn functions with the same anme separate.
+
+FIRST CLASS FUNCTIONS:
+** FUNCTIONS ARE OBJECTS
+Every you can do with other types you can do with functions.
+Assign them to variables, pass them aroun, create them on the fly
+
+FUNCTIONS STATEMENTS
+FUNCTIONS EXPRESSIONS
+
+EXPRESSION: A unit of code that result in a value. 
+It doest have to save to a variable
+
+
+
+
+
+
