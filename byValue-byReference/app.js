@@ -1,4 +1,5 @@
-// by referece
+
+// by value
 
 var a = 3;
 b = a;
@@ -13,8 +14,13 @@ console.log(b);
 var c = { greeting: 'hi'};
 var d;
 
-d = c;
+d = c;  // point same location in memory where 'c' points to
+// they point to the same spot
+
 c.greeting = 'hello'; // mutate
+/* Mutate: is to change something.
+* Inmutable: cant be changed
+ */
 
 console.log(c);
 console.log(d);
@@ -35,6 +41,10 @@ console.log(d);
 c = { greeting: 'Howdy'}
 console.log(c);
 console.log(d);
+
+/*!!!!!*/
+// PRIMITIVE TYPES GOES BY VALUE
+// OBJECT TYPES GOES BY REFERENCE
 
 
 
